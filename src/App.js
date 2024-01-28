@@ -1,20 +1,29 @@
-import './App.css';
-import {Home} from "./Pages/Home/Home";
-// import {Navbar} from "../src/components/Navbar/Navbar";
+
+// import VoterDetails from './Pages/VoterDetails/VoterDetails.jsx';
+import LogIn from "./Pages/LogIn/LogIn.jsx";
 import { BrowserRouter,Routes ,Route } from "react-router-dom";
+//import logo from './logo.svg';
+import './App.css';
+import Footer from './components/Footer';
+import {Home} from "./Pages/Home/Home";
 
 function App() {
   return (
-   <>
-   <BrowserRouter>
-    {/* <Navbar/> */}
+  <div className='App'>
+    <BrowserRouter>
+    
     <Routes>
       <Route path='home' element={<Home/>} />
+      {/* <Route path="voterdetails" element={<VoterDetails/>}/> */}
+      <Route path="login" element={<LogIn/>}/>
     </Routes>
-   </BrowserRouter>
-    
-   </>
-  );
+    </BrowserRouter>
+    <Footer/>
+    </div>
+  )
+  
 }
 
 export default App;
+
+

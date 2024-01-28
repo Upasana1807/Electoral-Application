@@ -1,0 +1,15 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+  .icon-div:hover, .details-div:hover{
+      cursor: pointer;
+      /* text-shadow: 2; */
+  }
+  a{
+    color: white;
+    text-decoration: none;
+  }
+  .footer-mail, .footer-phone, .footer-web{
+    height: 5vh;
+    width: 100%;
+  }
