@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outer-div{
+    height: 80vh;
+    width: 95%;
+    background-color: rgb(225,239,255);
+    background: linear-gradient(90deg, rgba(225,239,255,1) 60%, rgba(255,255,255,1) 100%);;
+    /* background-image: url(${bg1.jpg}); */
+    /* background-image: url("./bg1.jpg"); */
+    padding-top: 20vh;
+    padding-left: 5%;
+    display: flex;
+}
+.inner-div1{
+    height: 80vh;
+    width: 45%;
+    /* background-color: brown; */
+
+}
+.inner-div2{
+    height: 55vh;
+    width: 45%;
+   
+    margin-left: 6%;
+    /* margin-top: 4vh; */
+    margin-bottom: 12vh;
+}
+.inner-div3{
+    height: 10vh;
+    width: 100%;
+    color: #004b80;
+  
+    /* margin-left: 22%;
+    margin-top: 14vh; */
+}
+.inner-div4{
+    height: 10vh;
+    width: 40%;
+    color: #004b80;
+    
+    margin-left: 50%;
+    margin-top: 2vh;
+}
+.clipart-div{
+    height: 70vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.landing-font1{
+    font-size: 80px;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    /* text-decoration: underline #004b80 2px solid; */
+}
+.landing-font2{
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: "Inter", sans-serif;
+    /* text-decoration: underline #004b80 2px solid; */
+}
+.button-div{
+    height: 7vh;
+    width: 14%;
+    /* background-color: yellow; */
+    margin-left: 37%;
+    margin-top: 28vh;
+}
+.but-div{
+    height: 7vh;
+    width: 100%;
+    background-color: #00ABE4;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+}

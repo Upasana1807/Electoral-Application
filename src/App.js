@@ -1,10 +1,11 @@
+
 // import VoterDetails from './Pages/VoterDetails/VoterDetails.jsx';
 import LogIn from "./Pages/LogIn/LogIn.jsx";
 import { BrowserRouter,Routes ,Route } from "react-router-dom";
 //import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
-
+import {Home} from "./Pages/Home/Home";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <BrowserRouter>
     
     <Routes>
+      <Route path='home' element={<Home/>} />
       {/* <Route path="voterdetails" element={<VoterDetails/>}/> */}
       <Route path="login" element={<LogIn/>}/>
     </Routes>
