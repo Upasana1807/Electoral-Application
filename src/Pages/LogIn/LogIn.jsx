@@ -26,11 +26,11 @@ const LogIn=()=>{
                 <div className="from">
                     <div className="from_div">
                        <select className="select">
-                        <optgroup label="User" >
-                            <option value="Voter" id="voter"><b>Voter</b></option>
+                        <option label="User" ></option>
+                            <option value="Voter" >Voter</option>
                             <option value="Voter">Admin</option>
                             <option value="Voter">Candidate</option>
-                        </optgroup>
+                        
                        </select>
                     </div>
                     <div className="from_div">
