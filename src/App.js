@@ -7,6 +7,7 @@ import './App.css';
 import Footer from './components/Footer';
 import {Home} from "./Pages/Home/Home";
 import Candiform from "./components/Candiform.jsx";
+import Candash from "./Pages/Candashboard/Candash.jsx";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       {/* <Route path="/voterdetails" element={<VoterDetails/>}/> */}
       <Route path="/login" element={<LogIn/>}/>
       <Route path="/canform" element={<Candiform/>}/>
+      <Route path="/candash" element={<Candash/>}/>
+
     </Routes>
     </BrowserRouter>
     <Footer/>
