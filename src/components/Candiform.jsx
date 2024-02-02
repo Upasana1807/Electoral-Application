@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Candiform =() =>{
+    const [val, setVal] =useState("");
+    const change = (e) =>{
+        setVal(e.target.value);
+    }
     return(
         <>
-            <div style={{height:"10vh", width:"20%", backgroundColor:"red", marginLeft:"5%"}}></div>
-
+            <form>
+                <label> Name:</label>
+                <input type="text" value={val} name="name" onChange={change}/>
+                <button type="submit"> Submit</button>
+            </form>
         </>
     );
 };

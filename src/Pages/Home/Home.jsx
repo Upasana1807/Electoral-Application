@@ -13,7 +13,7 @@ export const  Home = () => {
        <div className='inner-div3'>
           <span className='landing-font1'><b>Online Voting</b></span>
        </div>
-        <div className='inner-div4'>
+        <div className='inner-div4' style={{marginTop:"6.5vh", marginLeft:"57%"}}>
           <span className='landing-font2'>System</span>
         </div>
         <div className='button-div'>
