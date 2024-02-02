@@ -13,4 +13,8 @@ body{
     overflow: hidden;
     overflow-y:scroll ;
 
+    background: linear-gradient(90deg, rgba(225,239,255,1) 60%, rgba(255,255,255,1) 100%);
+    color: black;
+    overflow: hidden;
+    overflow-y:scroll ;
 }
