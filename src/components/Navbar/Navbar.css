@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-outer{
+    height: 10vh;
+    width: 100%;
+    background-color: rgb(225,239,255);
+    background: linear-gradient(90deg, rgba(225,239,255,1) 60%, rgba(255,255,255,1) 100%);;
+    display: flex;
+}
+.nav-inner1{
+    height: 10vh;
+    width: 7%;
+    background-color: bisque;
+    margin-left: 3%;
+}
+.nav-inner2{
+    height: 7vh;
+    width: 3%;
+    background-color: rgb(214, 123, 11);
+    margin-left: 82.5%;
+    margin-top: 2vh;
+}
+.icon-div{
+    height: 10vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   background-size: contain;
+}
+.icon-div2{
+    height: 7vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+   /* background-size: contain; */
+}
