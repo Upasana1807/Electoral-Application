@@ -17,7 +17,7 @@ export const  Home = () => {
           <span className='landing-font2'>System</span>
         </div>
         <div className='button-div'>
-          <button className='but-div'>Log In</button>
+          <button className='but-div'><a href="/login"> Log In </a></button>
         </div>
       </div>
     </div>
