@@ -1,0 +1,177 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.inner_div{
+    height: 60vh;
+    width: 60%;
+    background-color:#ffffff ;
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 320px;
+    border-radius: 9px;
+    display: flex;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+.image_div{
+    height: 55vh;
+    width: 45%;
+   
+    margin-left: 60px;
+
+}
+.profile_pic{
+    height: 40vh;
+    width: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: contain;  
+}
+.personal_details_div{
+    height: 55vh;
+    width: 47%;
+ 
+    display: block;
+}
+.image{
+    height: 40vh;
+    width: 80%;
+ 
+  
+    margin-top: 56px;
+
+
+}
+.headding{
+    height: 10vh;
+    width: 100%;
+
+
+}
+.headding h1{
+    color: #004b80;
+    margin-bottom: 20px;
+    text-decoration: underline 2px;
+}
+.details_div{
+    height: 26vh;
+    width: 100%;
+    
+    display: flex;
+}
+.checkbox_div{
+    height: 7vh;
+    width: 100%;
+   
+    
+}
+.details_div1{
+    height: 26vh;
+    width: 50%;
+    
+    
+
+}
+.details_div2 {
+    height: 26vh;
+    width: 50%;
+   
+ 
+}
+.name{
+    height: 8vh;
+    width: 100%;
+    color: #004b80;
+    margin-top: 4px;
+}
+.id{
+    height: 8vh;
+    width: 100%;
+    color: #004b80;
+    margin-top: 4px;
+}
+.assemly{
+    height: 8vh;
+    width: 100%;
+   color: #004b80;
+    margin-top: 4px;
+}
+input[type="checkbox"]{
+    appearance: none;
+    -webkit-appearance: none;
+    
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    border: solid black 2.5px;
+    border-radius: 4px;
+
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+
+
+}
+input[type="checkbox"]:checked{
+    background-color:#00ABE4;
+}
+
+label{
+    color: black;
+    font-size: 15px;
+    font-weight:520 ;
+    display: inline-block;
+    margin-left: 5px;
+    letter-spacing: 0.5;
+    cursor: pointer;
+
+}
+input[type="checkbox"]::before{
+    position: absolute;
+    content: '\2713';
+    font-size: 25px;
+    line-height: 10px;
+  
+    color: #ffffff;
+    transform: scale(0);
+    transition: 0.3s all ease-in-out;
+}
+input[type="checkbox"]:checked::before{
+    transform:scale(1) ;
+}
+
+.batton{
+    height: 7vh;
+    width: 100%;
+  
+}
+button {
+    width: 20%;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    margin-left: 30%;
+    font-size: 16px;
+  }
+
+
+button.enabled {
+    background-color: #00ABE4;/* Gray when disabled */
+    color: #fff;
+  }
+  
+  button.disabled {
+    background-color: #ccc; /* Gray when disabled */
+    cursor: not-allowed;
+    color: #6a6969;
+  }
+.checkbox_div i{
+    color: #004b80;
+}
