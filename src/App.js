@@ -9,6 +9,7 @@ import {Home} from "./Pages/Home/Home";
 import Candiform from "./components/Candiform.jsx";
 import Candash from "./Pages/Candashboard/Candash.jsx";
 import Voterdetails from "./Pages/Voterdetails/Voterdetails.jsx";
+import Timer from "./Pages/Timer/Timer.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Route path="/canform" element={<Candiform/>}/>
       <Route path="/candash" element={<Candash/>}/>
       <Route path="/voterdetails" element={<Voterdetails/>}/>
+      <Route path="/countdown" element={<Timer/>}/>
 
 
     </Routes>
