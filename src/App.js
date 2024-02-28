@@ -9,14 +9,18 @@ import {Home} from "./Pages/Home/Home";
 import Candiform from "./components/Candiform.jsx";
 import Candash from "./Pages/Candashboard/Candash.jsx";
 import Voterdetails from "./Pages/Voterdetails/Voterdetails.jsx";
+
+import { Navbar } from "./components/Navbar/Navbar.jsx";
+
 import Timer from "./Pages/Timer/Timer.jsx";
 import Addash from "./Pages/Admindashboard/Addash.jsx";
+
 
 function App() {
   return (
   <div className='App'>
+    <Navbar />
     <BrowserRouter>
-    
     <Routes>
       <Route path='/' element={<Home/>} />
       {/* <Route path="/voterdetails" element={<VoterDetails/>}/> */}
