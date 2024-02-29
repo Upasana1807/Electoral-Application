@@ -14,6 +14,7 @@ import { Navbar } from "./components/Navbar/Navbar.jsx";
 
 import Timer from "./Pages/Timer/Timer.jsx";
 import Addash from "./Pages/Admindashboard/Addash.jsx";
+import Declared from "./Pages/Declared/Declared.jsx";
 
 
 function App() {
@@ -30,7 +31,7 @@ function App() {
       <Route path="/voterdetails" element={<Voterdetails/>}/>
       <Route path="/countdown" element={<Timer/>}/>
       <Route path="/admindash" element={<Addash/>}/>
-
+      <Route path="/declaring" element={<Declared/>}/>
 
     </Routes>
     </BrowserRouter>

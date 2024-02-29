@@ -19,7 +19,7 @@ const  Candash = () => {
                             <img src={ICON} alt="icon" height={32} width={32} /> 
                         </div>
                         <div className='candash-name-div'>
-                            <span className='candash-name'>NARASINGHA CHATTOPADHYAY</span>
+                            <span className='candash-name'>NARASINGHA  CHATTOPADHYAY</span>
                         </div>
                     </div>
                 </div>
