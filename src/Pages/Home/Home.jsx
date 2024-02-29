@@ -1,6 +1,7 @@
 import React from 'react'
 import './Home.css'
 import backg from "../../image/clip3.png"
+import { Link } from 'react-router-dom'
 
 export const  Home = () => {
   return (
@@ -17,7 +18,7 @@ export const  Home = () => {
           <span className='landing-font2'>System</span>
         </div>
         <div className='button-div'>
-          <button className='but-div'>Log In</button>
+          <button className='but-div'><Link to={'/login'} style={{fontFamily:"'Montserrat', sans-serif"}}> Log In </Link></button>
         </div>
       </div>
     </div>

@@ -34,7 +34,7 @@
 
 .candash-inner-div1{
     height: 8vh;
-    width: 80%;
+    width: 90%;
     /* background-color: blue; */
     margin-left: 2%;
     text-align: center;
@@ -74,8 +74,9 @@
     color: white;
 }
 .candash-heading{
-    font-size: 65px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 430%;
+    /* background-color: olive; */
+    font-family: 'Inter', sans-serif;
 }
 .candash-pic-div{
     height: 13vh;
@@ -86,11 +87,12 @@
 }
 .candash-name-div{
     height: 12vh;
-    width: 64%;
-    font-family: "'Montserrat', sans-serif";    /* background-color: gray; */
+    width: 70%;
+    font-family: "'Montserrat', sans-serif";   
+     /* background-color: gray; */
 }
 .candash-name{
-    font-size: 30px;
+    font-size: 190%;
     font-family: "'Montserrat', sans-serif"; 
     /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     /* margin-left: 2%; */
