@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./LogIn.css";
 import Login from "../../Images/login.png";
 import Password from "../../Images/password.png";
@@ -6,6 +6,28 @@ import Id from "../../Images/id.png";
 import Select from "../../Images/select.png";
 
 const LogIn=()=>{
+    const [val,setval]=useState("");
+    const [passval,passsetval]=useState("");
+    const [sub,setSub]=useState(false);
+   
+    const change =(e)=>{
+        setval(e.target.value);
+    };
+    const passchange =(e)=>{
+       passsetval(e.target.value);
+    };
+    const submitFrom =(e)=>{
+        if(val===''){
+            alert('Please Enter Proper Value');
+            e.preventDefault();
+        }
+        else{
+            e.preventDefault();
+            setSub(true);
+        }
+       
+    }
+   
     return(
     <>
     <div className="outer">
@@ -25,29 +47,33 @@ const LogIn=()=>{
                 </div>
                 <div className="from">
                     <div className="from_div">
-                       <select className="select">
-                        <option label="User" ></option>
-                            <option value="Voter" >Voter</option>
-                            <option value="Voter">Admin</option>
-                            <option value="Voter">Candidate</option>
-                        
+                    <select className="select">
+                    <option value="Voter" id="voter"><b>Voter</b></option>
+                            <option value="Admin">Admin</option>
+                            <option value="Candiate">Candidate</option>
+                            
                        </select>
                     </div>
                     <div className="from_div">
-                    <form className="from-div">
-                <input type="number" placeholder=" Please Enter Your ID"className="box"></input><br/>
+                    <form className="from-div" onSubmit={submitFrom}>
+                <input type="text" placeholder=" Please Enter Your ID" className="box" name="text" value={val} onChange={change}></input><br/>
                 </form>
                     </div>
                     <div className="from_div">
-                    <form>
-                <input type="password" placeholder=" Please Enter Your Password"className="box"></input><br/>
+                    <form onSubmit={submitFrom}>
+                <input type="password" placeholder=" Please Enter Your Password"className="box" name="password" value={passval} onChange={passchange}></input><br/>
+        
                 </form>
+            
                     </div>
+                    
                 </div>
                
             </div>
-            <div className="btn_div">
-                <button className="btn_login"><b>Log in</b></button>
+            <div className="btn_div" >
+                <button type="submit" className="btn_login" onClick={submitFrom}><b>Log in</b></button>      
+                <br/>
+                {sub}       
 </div>
         </div>
         <div className="login"></div>
