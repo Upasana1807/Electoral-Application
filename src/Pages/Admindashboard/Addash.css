@@ -1,0 +1,56 @@
+.admindash_outer{
+    height: 90vh;
+    width: 100%;
+}
+.admindash_heading{
+    height: 10vh;
+    width: 45%;
+    /* background-color: blue; */
+    margin-left: 58vh;
+    margin-top: 1vh;
+
+}
+.admindash_heading span{
+    font-size: 9vh;
+    margin-left: 12vh;
+    color: #004b80;
+    letter-spacing: 1PX;
+    Font-Family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.admindash_btn{
+    height: 25vh;
+    width: 90%;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    margin-top: 9vh;
+    display: flex;
+}
+.main_btn{
+    height: 22vh;
+    width: 25vh;
+    background-color: white;
+    margin-left: 20vh;
+    margin-top: 1vh;
+    border:  #00ABE4 3px solid;
+    border-radius: 3vh;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    display: block;
+}
+button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.btn_img{
+    height: 16vh;
+
+}
+.btn_name{
+    color: #00ABE4 ;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+     Font-Family :'Montserrat', sans-serif;
+     font-weight: bolder;
+
+
+}
