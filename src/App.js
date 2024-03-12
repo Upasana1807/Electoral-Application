@@ -16,6 +16,7 @@ import Timer from "./Pages/Timer/Timer.jsx";
 import Addash from "./Pages/Admindashboard/Addash.jsx";
 import Declared from "./Pages/Declared/Declared.jsx";
 import Typage from "./Pages/Typage/Typage.jsx";
+import Voting from "./Pages/Voting/Voting.jsx";
 
 
 function App() {
@@ -34,6 +35,8 @@ function App() {
       <Route path="/admindash" element={<Addash/>}/>
       <Route path="/declaring" element={<Declared/>}/>
       <Route path="/thankyou" element={<Typage/>}/>
+      <Route path="/voting" element={<Voting/>}/>
+
 
     </Routes>
     </BrowserRouter>
