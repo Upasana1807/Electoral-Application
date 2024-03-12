@@ -38,7 +38,42 @@ const Addash =() =>{
                 </button>
                 </Link>
             </div>
-        
+            <div className="heading2"><span><b>Candidate Application Approval</b></span></div>
+            <div className="candidate_approval_table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Region</th>
+                        <th>Party</th>
+                        <th>   </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Rahul Ghosh</td>
+                        <td>kalna-1</td>
+                        <td>XYZ</td>
+                        <td><button><p>Details</p></button>
+                            </td>
+                    </tr>
+                     <tr>
+                        <td>Rahul Ghosh</td>
+                        <td>kalna-1</td>
+                        <td>YZX</td>
+                        <td><button><p>Details</p></button>
+                            </td>
+                    </tr>
+                     <tr>
+                        <td>Rahul Ghosh</td>
+                        <td>kalna-1</td>
+                        <td>ZXY</td>
+                        <td><button><p>Details</p></button>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
            </div>
            
 
