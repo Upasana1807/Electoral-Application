@@ -85,20 +85,20 @@ button:hover{
     text-align: center;
     Font-Family :'Montserrat', sans-serif;
 }
-th{
+.candidate_approval_table th{
     border:3px solid #00ABE4;
     Font-Family :'Montserrat', sans-serif;
     color: #004b80;
     height: 5vh;
 }
-td{
+.candidate_approval_table td{
     height: 7vh;
     border:3px solid #00ABE4;
     Font-Family :'Montserrat', sans-serif;
     color: #004b80;
     font-weight: bolder;
 }
-button{
+.candidate_approval_table button{
    height: 5vh;
    width: 10vh;
    background-color: #00ABE4;
@@ -107,4 +107,6 @@ button{
    font-weight: bolder;
     color: white;
     margin-right: 25%;
+    border: none;
+    border-radius: 5px;
 }
