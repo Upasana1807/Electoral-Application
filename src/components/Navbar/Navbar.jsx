@@ -1,9 +1,9 @@
-import React from 'react'
-import './Navbar.css'
-import logo from "../../image/icon.jpg"
-import icon from "../../image/icon2.jpg"
+import React from 'react';
+import './Navbar.css';
+import logo from "../../image/vote.jpg";
+import icon from "../../image/home.png";
 
-export const Navbar = () => {
+export const  Navbar= ()=>  {
   return (
     <div className='nav-outer'>
       <div className='nav-inner1'>

@@ -86,7 +86,7 @@
     height: 8vh;
     width: 100%;
     color: #004b80;
-    margin-top: 4px;
+    margin-top: 1vh;
 }
 .id{
     height: 8vh;
@@ -100,7 +100,7 @@
    color: #004b80;
     margin-top: 4px;
 }
-input[type="checkbox"]{
+.checkbox_div input[type="checkbox"]{
     appearance: none;
     -webkit-appearance: none;
     
@@ -117,11 +117,11 @@ input[type="checkbox"]{
 
 
 }
-input[type="checkbox"]:checked{
+.checkbox_div input[type="checkbox"]:checked{
     background-color:#00ABE4;
 }
 
-label{
+.checkbox_div label{
     color: black;
     font-size: 15px;
     font-weight:520 ;
@@ -131,7 +131,7 @@ label{
     cursor: pointer;
 
 }
-input[type="checkbox"]::before{
+.checkbox_div input[type="checkbox"]::before{
     position: absolute;
     content: '\2713';
     font-size: 25px;
@@ -141,7 +141,7 @@ input[type="checkbox"]::before{
     transform: scale(0);
     transition: 0.3s all ease-in-out;
 }
-input[type="checkbox"]:checked::before{
+.checkbox_div input[type="checkbox"]:checked::before{
     transform:scale(1) ;
 }
 
@@ -150,7 +150,7 @@ input[type="checkbox"]:checked::before{
     width: 100%;
   
 }
-button {
+.batton button {
     width: 20%;
     padding: 10px;
     cursor: pointer;
@@ -162,12 +162,12 @@ button {
   }
 
 
-button.enabled {
+  .batton button.enabled {
     background-color: #00ABE4;/* Gray when disabled */
     color: #fff;
   }
   
-  button.disabled {
+  .batton button.disabled {
     background-color: #ccc; /* Gray when disabled */
     cursor: not-allowed;
     color: #6a6969;
