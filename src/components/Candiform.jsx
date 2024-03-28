@@ -15,12 +15,14 @@ const Candiform = () => {
   const [temp3, setTemp3] = useState(val3);
   const [temp4, setTemp4] = useState(val4);
   const [temp5, setTemp5] = useState(val5);
-  const [temp6, setTemp6] = useState(picv);
-  const change6 = (e) => {
-    setSub(false);
-    setPicv(URL.createObjectURL(e.target.files[0]));
-    console.log(picv);
-  }
+  const [temp6, setTemp6] = useState("");
+  // const change6 = (e) => {
+  //   setSub(false);
+  //   setPicv(URL.createObjectURL(e.target.files[0]));
+  //   console.log(picv);
+  //   setTemp6(picv);
+  //   console.log(temp6);
+  // };
   const change1 = (e) => {
     console.log(e);
     setSub(false);
@@ -51,9 +53,7 @@ const Candiform = () => {
     setVal5(e.target.value);
     console.log(val5);
   };
-    
-    
-   
+
   const submitForm = (e) => {
     if (
       val1 === "" ||
@@ -77,8 +77,8 @@ const Candiform = () => {
       setVal4("");
       setTemp5(val5);
       setVal5("");
-      setTemp6(picv);
-      setPicv("");
+      // setTemp6(picv);
+      // setPicv("");
     }
   };
 
@@ -135,7 +135,7 @@ const Candiform = () => {
       >
         <div
           style={{
-            height: "27vh",
+            height: "36vh",
             width: "45%",
             backgroundColor: "maroon",
             marginLeft: "30%",
@@ -144,7 +144,7 @@ const Candiform = () => {
           <img
             src={nomination}
             alt="illustraion for nomination"
-            style={{ height: "32vh", width: "100%" }}
+            style={{ height: "36vh", width: "100%" }}
           />
         </div>
         <div
@@ -152,17 +152,21 @@ const Candiform = () => {
             height: "80vh",
             width: "100%",
             marginTop: "5vh",
+            
             display: "flex",
           }}
         >
           <form onSubmit={submitForm}>
+            <div style={{width:"100%", display:"flex"}}>
             <div
               style={{
                 height: "auto",
-                width: "200%",
+                width: "40%",
                 marginTop: "2vh",
                 textAlign: "left",
-                marginLeft: "8%",
+                marginLeft: "6%",
+                position: "absolute",
+                
               }}
             >
               <label className="candi-form-label">Name: </label>
@@ -221,7 +225,7 @@ const Candiform = () => {
                 }}
               />
               <br /> <br />
-              <label className="candi-form-label"> Party Name: </label>
+              <label className="candi-form-label"> Party: </label>
               <input
                 type="text"
                 value={val5}
@@ -231,54 +235,50 @@ const Candiform = () => {
                 style={{
                   paddingLeft: "2%",
                   fontSize: "12.5px",
-                  marginLeft: "-1%",
+                  marginLeft: "9%",
                 }}
               />
-              <br /> <br />
-              <br /> <br />
-              <br /> <br />
+              
+            </div>
+            {/* <div
+                style={{
+                  height: "38vh",
+                  width: "80%",
+                  marginTop: "7vh",
+                  marginLeft: "175%",
+                  position:"relative", 
+                  overflow:"hidden",
+                  backgroundColor:"olive"
+                }}
+              >
+                <img
+                  src={picv}
+                  alt=""
+                  style={{ width: "90%", height: "32vh", border:"1px solid rgb(0, 171, 228)", borderRadius:"5px"}}
+                />
+                <input type="file" onChange={change6} />
+                {
+                  sub && <img src={temp6} alt="" />
+                }
+              </div> */}
             </div>
             <button
-              type="submit"
-              style={{
-                height: "6vh",
-                width: "30%",
-                backgroundColor: "rgb(0, 171, 228)",
-                color: "white",
-                border: "none",
-                boxShadow: "1px 1px 2px gray",
-                fontFamily: "'Montserrat', sans-serif",
-                borderRadius: "5px",
-                fontSize: "15px",
-                marginLeft: "120%",
-              }}
+              type="submit"              
               className="candi-form-btn"
             >
               Submit
             </button>
             <br />
-            {sub && <h1>The value is {temp1}</h1>}
+            {/* {sub && <h1>The value is {temp1}</h1>}
             {sub && <h1>The value is {temp2}</h1>}
             {sub && <h1>The value is {temp3}</h1>}
             {sub && <h1>The value is {temp4}</h1>}
-            {sub && <h1>The value is {temp5}</h1>}
+            {sub && <h1>The value is {temp5}</h1>} */}
+
+            
+              
+            
           </form>
-          <div>
-            <div
-              style={{
-                height: "29vh",
-                width: "70%",
-                backgroundColor: "olive",
-                marginTop: "7vh",
-                marginLeft: "50%",
-              }}
-            >
-              <img src={picv} alt="" style={{width:"100%", height:"29vh"}}/>
-            <input type="file" 
-                onChange={change6}/>
-              {sub && {temp6}}
-            </div>
-          </div>
         </div>
       </div>
     </>
