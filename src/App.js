@@ -17,6 +17,7 @@ import Addash from "./Pages/Admindashboard/Addash.jsx";
 import Declared from "./Pages/Declared/Declared.jsx";
 import Typage from "./Pages/Typage/Typage.jsx";
 import Voting from "./Pages/Voting/Voting.jsx";
+import Nomdone from "./Pages/Nomdone/Nomdone.jsx";
 
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <Route path="/declaring" element={<Declared/>}/>
       <Route path="/thankyou" element={<Typage/>}/>
       <Route path="/voting" element={<Voting/>}/>
+      <Route path="/nomdone" element={<Nomdone/>}/>
 
 
     </Routes>
