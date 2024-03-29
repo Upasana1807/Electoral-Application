@@ -1,6 +1,6 @@
 import React from "react";
 import './Nomdone.css';
-import NDPIC from "../../image/NDPIC.jpg"
+import NDPIC from "../../image/nomdone.png"
 
 const Nomdone = () =>{
     return(
