@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import "./Voterdetails.css";
 import My from "../../Images/my.png";
 const Voterdetails =() =>{
@@ -36,9 +37,11 @@ const Voterdetails =() =>{
                 </i>
             </div>
             <div className="batton">
+            <Link to="/voting">
                 <button className={isChecked ? 'enabled' : 'disabled'} onClick={() => alert('This page will redirect you to the voting page')} id="btn">
                 <b>Continue</b>
                 </button>
+                </Link>
             </div>
             </div> 
 
