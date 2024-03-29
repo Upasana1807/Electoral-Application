@@ -6,7 +6,7 @@ const Nomdone = () =>{
     return(
         <div className="nomdone-outer-div">
             <div className="nomdone-heading-div">
-               <h1 className="nomdone-heading-name-div">Thank you for casting your vote!</h1>
+               <h1 className="nomdone-heading-name-div">Thank you for nominating yourself!</h1>
             </div>
             <div className="nomdone-pic-div">
             <img src={NDPIC} alt="nomdonepic" height={330} width={520} /> 
