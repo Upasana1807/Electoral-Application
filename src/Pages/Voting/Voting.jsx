@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./Voting.css";
 import Tmc from "../../Images/tmc.png";
 import Bjp from "../../Images/bjp.png";
@@ -24,7 +25,9 @@ const Voting =() =>{
                         <td>Rahul Ghosh</td>
                         <td><img src={Tmc} alt="sample" className="vote_logo"></img></td>
                         <td>TMC</td>
-                        <td><button><p>Vote</p></button>
+                        <td><Link to ="/thankyou">
+                            <button><p>Vote</p></button>
+                            </Link>
                             </td>
                     </tr>
                      <tr>
@@ -32,7 +35,9 @@ const Voting =() =>{
                         <td>Rahul Ghosh</td>
                         <td><img src={Bjp} alt="sample" className="vote_logo"></img></td>
                         <td>BJP</td>
-                        <td><button><p>Vote</p></button>
+                        <td><Link to ="/thankyou">
+                            <button><p>Vote</p></button>
+                            </Link>
                             </td>
                     </tr>
                      <tr>
@@ -40,7 +45,10 @@ const Voting =() =>{
                         <td>Rahul Ghosh</td>
                         <td><img src={Cpim} alt="sample" className="vote_logo"></img></td>
                         <td>CPIM</td>
-                        <td><button><p>Vote</p></button>
+                        <td>
+                        <Link to ="/thankyou">
+                            <button><p>Vote</p></button>
+                            </Link>
                             </td>
                     </tr>
                     <tr>
@@ -48,7 +56,9 @@ const Voting =() =>{
                         <td>Rahul Ghosh</td>
                         <td><img src={Cong} alt="sample" className="vote_logo"></img></td>
                         <td>CONGRESS</td>
-                        <td><button><p>Vote</p></button>
+                        <td><Link to ="/thankyou">
+                            <button><p>Vote</p></button>
+                            </Link>
                             </td>
                     </tr>
                 </tbody>
