@@ -1,0 +1,112 @@
+.admindash_outer{
+    height: 90vh;
+    width: 100%;
+}
+.admindash_heading{
+    height: 10vh;
+    width: 45%;
+    /* background-color: blue; */
+    margin-left: 58vh;
+    margin-top: 1vh;
+
+}
+.admindash_heading span{
+    font-size: 9vh;
+    margin-left: 12vh;
+    color: #004b80;
+    letter-spacing: 1PX;
+    Font-Family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.admindash_btn{
+    height: 25vh;
+    width: 90%;
+    /* background-color: blueviolet; */
+    margin-left: 5%;
+    margin-top: 9vh;
+    display: flex;
+}
+.main_btn{
+    height: 22vh;
+    width: 25vh;
+    background-color: white;
+    margin-left: 20vh;
+    margin-top: 1vh;
+    border:  #00ABE4 3px solid;
+    border-radius: 3vh;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    display: block;
+}
+button:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+.btn_img{
+    height: 16vh;
+
+}
+.btn_name{
+    color: #00ABE4 ;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+     Font-Family :'Montserrat', sans-serif;
+     font-weight: bolder;
+
+
+}
+.heading2{
+    height: 15vh;
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: 45vh;
+    margin-top: 7vh;
+
+}
+.heading2 span{
+    font-size: 7vh;
+    margin-left: 2vh;
+
+    color: #004b80;
+    letter-spacing: 1PX;
+    Font-Family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.candidate_approval_table{
+    height: 15vh;
+    width: 60%;
+    margin-left: 45vh;
+     /* background-color: blue; */
+     margin-top: 1vh;
+
+}
+.candidate_approval_table table{
+    width: 100%;
+    height: 5vh;
+    border:3px solid #00ABE4;
+    text-align: center;
+    Font-Family :'Montserrat', sans-serif;
+}
+.candidate_approval_table th{
+    border:3px solid #00ABE4;
+    Font-Family :'Montserrat', sans-serif;
+    color: #004b80;
+    height: 5vh;
+}
+.candidate_approval_table td{
+    height: 7vh;
+    border:3px solid #00ABE4;
+    Font-Family :'Montserrat', sans-serif;
+    color: #004b80;
+    font-weight: bolder;
+}
+.candidate_approval_table button{
+   height: 5vh;
+   width: 10vh;
+   background-color: #00ABE4;
+   margin-top: 1%;
+   Font-Family :'Montserrat', sans-serif;
+   font-weight: bolder;
+    color: white;
+    margin-right: 25%;
+    border: none;
+    border-radius: 5px;
+}
