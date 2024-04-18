@@ -1,0 +1,136 @@
+.timer-outer-div{
+    height: 65vh;
+    width: 100%;
+    /* background-color: brown; */
+    background-color: rgb(225,239,255);
+    background: linear-gradient(90deg, rgba(225,239,255,1) 60%, rgba(255,255,255,1) 100%);;
+    padding-top: 5vh;
+    color: #004b80;
+}
+.timer-heading-div{
+    height: 8vh;
+    width: 60%;
+    margin-left: 20%;
+    /* background-color: white; */
+}
+.timer-heading-name{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: #004b80;
+    font-style: bold;
+}
+.timer-inner-div{
+    height: 55vh;
+    width: 100%;
+    margin-top: 4vh;
+    /* background-color: fuchsia; */
+    display: flex;
+}
+.timer{
+    height: 25vh;
+    width: 30%;
+    margin-top: 15vh;
+    font-size: 30px;
+    background-color: transparent;
+    text-align: center;
+    margin-left: 15%;
+    /* margin: auto; */
+    color: #00ABE4;
+}
+
+.timer-inner-heading{
+    height: 25vh;
+    width: 24%;
+    background-color: transparent;
+    color: #004b80;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.timer-button{
+    height: 5vh;
+    width: 20%;
+    /* background-color: #00ABE4; */
+    font-size: 20px;
+    text-align: center;
+    color: #004b80;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.collection-div{
+    height: 15vh;
+    width: 100%;
+    margin-top: 1vh;
+    background-color: transparent;
+    /* margin-left: 7%; */
+    font-size: larger;
+    display: inline-flex;
+    /* padding-left: 35%; */      
+}
+#day{
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    /* margin-left: 5%; */
+    border-radius: 5px;
+    border: 2px solid #004b80;
+    color: #00ABE4;
+    border-style: groove;
+    font-size: xx-large;
+    padding-top: 15%;
+}
+#hour{
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    /* margin-left: 5%; */
+    border-radius: 5px;
+    border: 2px solid #004b80;  
+    color: #00ABE4;
+    border-style: groove;
+    font-size: xx-large;
+    padding-top: 15%;
+}
+#minute{
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    /* margin-left: 5%; */
+    border-radius: 5px;
+    border: 2px solid #004b80;  
+    color: #00ABE4;
+    border-style: groove;
+    font-size: xx-large;
+    padding-top: 15%;
+}
+#second{
+    height: 10vh;
+    width: 100%;
+    background-color: transparent;
+    /* margin-left: 5%; */
+    border-radius: 5px;
+    background-color: #004b80;
+    color: #00ABE4;
+    border-style: groove;
+    font-size: xx-large;
+    padding-top: 15%;
+}
+.text{
+    height: 4vh;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 4px;
+    /* color: white; */
+    color: #004b80;
+}
+.block-div{
+    height: 15vh;
+    width: 22%;
+    background-color: transparent;
+    margin-left: 2.5%;  
+}
+.timer-inner1-div{
+    height: 40vh;
+    width: 34%;
+    margin-top: 6vh;  
+    /* background-color: firebrick; */
+    margin-left: 15%;
+}
