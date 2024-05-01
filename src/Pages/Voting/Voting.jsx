@@ -16,7 +16,7 @@ const Voting =() =>{
                         <th>Name</th>
                         <th>Logo</th>
                         <th>Party</th>
-                        <th>   </th>
+                        <th>Button</th>
                     </tr>
                 </thead>
                 <tbody>

@@ -26,14 +26,14 @@
     font-weight: bolder;
 }
 .vote td button{
-   height: 5vh;
-   width: 9vh;
+   height: 6vh;
+   width: 10vh;
    background-color: #00ABE4;
    margin-top: 1%;
    Font-Family :'Montserrat', sans-serif;
    font-weight: bolder;
     color: white;
-    margin-right: 25%;
+    margin-right: %;
     border: none;
     border-radius: 5px;
 }
