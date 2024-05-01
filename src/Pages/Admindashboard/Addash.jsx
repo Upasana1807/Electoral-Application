@@ -46,7 +46,7 @@ const Addash =() =>{
                         <th>Name</th>
                         <th>Region</th>
                         <th>Party</th>
-                        <th>   </th>
+                        <th>Button</th>
                     </tr>
                 </thead>
                 <tbody>

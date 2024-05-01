@@ -1,10 +1,11 @@
-import React from 'react'
-import './Candash.css'
-import BG4 from "../../image/clock.png"
-import ICON from "../../Images/icon.png"
-import BG3 from "../../image/region-1.png"
-import BG2 from "../../image/party-logo.png"
-import BG1 from "../../image/party-name.png"
+import React from 'react';
+import './Candash.css';
+import {Link} from "react-router-dom";
+import BG4 from "../../image/clock.png";
+import ICON from "../../Images/icon.png";
+import BG3 from "../../image/region-1.png";
+import BG2 from "../../image/party-logo.png";
+import BG1 from "../../image/party-name.png";
 
 const  Candash = () => {
     return (
@@ -79,7 +80,9 @@ const  Candash = () => {
                 </div> */}
             </div>
             <div className='candash-button-div'>
+                <Link to="/">
                <button className='candash-but-div'>Log Out</button>
+               </Link>
             </div>
         </div>
       )
