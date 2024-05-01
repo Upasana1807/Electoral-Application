@@ -176,7 +176,7 @@ const Candiform = () => {
                 value={val1}
                 onChange={change1}
                 className="candi-form-box"
-                placeholder="Enter the candidate name"
+                placeholder="Enter the name of the candidate"
                 style={{
                   paddingLeft: "2%",
                   fontSize: "12.5px",
