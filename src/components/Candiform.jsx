@@ -139,7 +139,7 @@ const Candiform = () => {
             height: "36vh",
             width: "45%",
             backgroundColor: "maroon",
-            marginLeft: "30%",
+            marginLeft: "29.8%",
           }}
         >
           <img
