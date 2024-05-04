@@ -1,10 +1,11 @@
 .outer{
     height: 66vh;
     width: 30%;
-    background-color:#ffffff ;
+    background-color:#ffffff ; 
+    /* background-color: olive; */
     align-items: center;
     margin-top: 8%;
-    margin-left: 557px;
+    margin-left: 36%;
     border-radius: 9px;
     display: flex;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2); 
@@ -22,22 +23,22 @@
     height: 8vh;
     width: 100%;
     /* background-color: aqua; */
-    margin-top: 30px;
+    margin-top: 3%;
 }
 .heading{
    
     color: #004b80;
     font-size: 40px;
-   margin-top: 5%;
+   margin-top: 40%;
     letter-spacing: 1px;
-    margin-left: 26%;
+    margin-left: 3%;
   
     
 }
 .profile_logo_div{
     height: 14vh;
     width: 100%;
-   
+   margin-left: -14%;
 }
 .profile_logo{
    height: 15vh;
@@ -52,6 +53,7 @@
     width: 100%;
     /* background-color:blueviolet ; */
     display: flex;
+    margin-left: -3%;
 }
 .icon{
     height: 30vh;
@@ -108,8 +110,8 @@
 .btn_div{
     height: 7vh;
     width: 100%;
-  
-
+    margin-left: -11%;
+    margin-top: 1.5%;
 }
 .btn_login{
     height: 6vh;
