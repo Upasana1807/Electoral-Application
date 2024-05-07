@@ -75,7 +75,7 @@
     color: #00ABE4;
     border-style: groove;
     font-size: xx-large;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 #hour{
     height: 10vh;
@@ -87,7 +87,7 @@
     color: #00ABE4;
     border-style: groove;
     font-size: xx-large;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 #minute{
     height: 10vh;
@@ -99,7 +99,7 @@
     color: #00ABE4;
     border-style: groove;
     font-size: xx-large;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 #second{
     height: 10vh;
@@ -109,9 +109,9 @@
     border-radius: 5px;
     background-color: #004b80;
     color: #00ABE4;
-    border-style: groove;
+    /* border-style: groove; */
     font-size: xx-large;
-    padding-top: 15%;
+    padding-top: 10%;
 }
 .text{
     height: 4vh;
