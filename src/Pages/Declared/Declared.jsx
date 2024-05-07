@@ -1,6 +1,7 @@
 import React from "react";
 import waiting from "../../components/waiting.png";
 import { Link } from "react-router-dom";
+import './Declared.css'
 
 const Declared = () => {
   return (
@@ -44,14 +45,7 @@ const Declared = () => {
           </h2>
         </div>
 
-        <button
-          style={{
-            height: "7vh",
-            width: "20%",
-            backgroundColor: "#00abe4",
-            margin: "8vh auto",
-          }}
-        >
+        <button className="dec-logout">
           <Link
             to={"/"}
             style={{
