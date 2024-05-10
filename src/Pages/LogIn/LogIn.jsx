@@ -30,7 +30,7 @@ const LogIn = () => {
   };
   const submitFrom = (e) => {
     if (val === "") {
-      alert("Please Enter Proper Value");
+      alert("Please Fill the Form Properly");
       e.preventDefault();
     } else {
       e.preventDefault();
