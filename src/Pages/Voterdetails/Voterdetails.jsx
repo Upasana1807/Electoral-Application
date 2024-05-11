@@ -37,7 +37,7 @@ const Voterdetails =() =>{
                 </i>
             </div>
             <div className="batton">
-            <Link to="/voting">
+            <Link to="/countdown">
                 <button className={isChecked ? 'enabled' : 'disabled'} onClick={() => alert('This page will redirect you to the voting page')} id="btn">
                 <b>Continue</b>
                 </button>
