@@ -26,7 +26,7 @@ const Voting =() =>{
                         <td><img src={Tmc} alt="sample" className="vote_logo"></img></td>
                         <td>TMC</td>
                         <td><Link to ="/thankyou">
-                            <button  onClick={() => alert('You Confirm that you give vote for TMC')}><p>Vote</p></button>
+                            <button  onClick={() => alert('You Confirm that you are voting for TMC')}><p>Vote</p></button>
                             </Link>
                             </td>
                     </tr>
@@ -36,7 +36,7 @@ const Voting =() =>{
                         <td><img src={Bjp} alt="sample" className="vote_logo"></img></td>
                         <td>BJP</td>
                         <td><Link to ="/thankyou">
-                            <button onClick={() => alert('You Confirm that you give vote for BJP')}><p>Vote</p></button>
+                            <button onClick={() => alert('You Confirm that you are voting for BJP')}><p>Vote</p></button>
                             </Link>
                             </td>
                     </tr>
@@ -47,7 +47,7 @@ const Voting =() =>{
                         <td>CPIM</td>
                         <td>
                         <Link to ="/thankyou">
-                            <button onClick={() => alert('You Confirm that you give vote for CPIM')}><p>Vote</p></button>
+                            <button onClick={() => alert('You Confirm that you are voting for CPIM')}><p>Vote</p></button>
                             </Link>
                             </td>
                     </tr>
@@ -57,7 +57,7 @@ const Voting =() =>{
                         <td><img src={Cong} alt="sample" className="vote_logo"></img></td>
                         <td>CONGRESS</td>
                         <td><Link to ="/thankyou">
-                            <button onClick={() => alert('You Confirm that you give vote for CONGRESS')}><p>Vote</p></button>
+                            <button onClick={() => alert('You Confirm that you are voting for CONGRESS')}><p>Vote</p></button>
                             </Link>
                             </td>
                     </tr>
