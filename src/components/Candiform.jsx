@@ -57,11 +57,11 @@ const Candiform = () => {
 
   const submitForm = (e) => {
     if (
-      val1 === "" ||
-      val2 === "" ||
-      val3 === "" ||
-      val4 === "" ||
-      val5 === ""
+      (val1 === "")||
+      (val2 === "")||
+      (val3 === "")||
+      (val4 === "")||
+      (val5 === "")
     ) {
       alert("Please Fill the Form Properly");
       e.preventDefault();
