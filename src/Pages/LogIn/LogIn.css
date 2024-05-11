@@ -77,6 +77,26 @@
     background-size: contain; 
     
 }
+.iconimg_id{
+    height: 6vh;
+    width: 44%;
+    margin-top: 3vh;
+    margin-left: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
+.iconimg_password{
+    height: 6vh;
+    width: 56%;
+    margin-top: 3vh;
+    margin-left: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
 .from_div{
     height: 7.3vh;
     width: 100%;

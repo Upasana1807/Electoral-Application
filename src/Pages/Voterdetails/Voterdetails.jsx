@@ -24,8 +24,8 @@ const Voterdetails =() =>{
                 </div>
                 <div className="details_div2">
                 <div className="name"><span><b>Raumya Koley</b></span></div>
-                    <div className="id"><span><b>395674</b></span></div>
-                    <div className="assemly"><span><b>Kalna</b></span></div>
+                    <div className="id_my"><span><b>395674</b></span></div>
+                    <div className="assemly_my"><span><b>Kalna</b></span></div>
                 </div>
             </div>
             <div className="checkbox_div">
