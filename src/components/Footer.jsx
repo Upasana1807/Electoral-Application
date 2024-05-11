@@ -7,40 +7,19 @@ import web from "./website.png";
 const Footer = () => {
   return (
     <>
-      <div
-        className="footer-whole"
-        style={{
-          height: "25vh",
-          width: "100%",
-          marginTop: "10vh",
-          backgroundColor: "rgb(0, 171, 228)",
-        }}
-      >
-        <h4
-          style={{
-            color: "white",
-            fontFamily: "'Montserrat', sans-serif",
-            marginTop: "2vh",
-            marginLeft: "-55%",
-          }}
-        >
-          {" "}
-          <br /> All Copyrights reserved ©️ 2024 by Election Commission India{" "}
-          <br />
-          Upasana Paul, Raumya Koley, Snehal Bhowmick
-        </h4>
-        <div
-          className="links-div"
-          style={{
-            height: "17vh",
-            width: "30%",
-            marginLeft: "71%",
-            marginTop: "-11.5vh",
-          }}
-        >
+      <div className="footer-whole">
+        <div className="footer-copy-div">
+          <h4>
+            {" "}
+            <br /> All Copyrights reserved ©️ 2024 by Election Commission India{" "}
+            <br />
+            Upasana Paul, Raumya Koley, Snehal Bhowmick
+          </h4>
+        </div>
+        <div className="links-div">
           <div
             className="more-div"
-            style={{ height: "4vh", width: "90%", marginTop: "4vh" }}
+            style={{ height: "4vh", width: "90%", backgroundColor: "red" }}
           >
             <h3
               style={{ color: "white", fontFamily: "'Montserrat', sans-serif" }}
