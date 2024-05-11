@@ -11,7 +11,7 @@ const CountdownTimer = () => {
   useEffect(() => {
     const countDownTime = () => {
       const currentTime = new Date().getTime();
-      const dueTime = new Date("June 1, 2024 00:00:00").getTime();
+      const dueTime = new Date("August 1, 2024 00:00:00").getTime();
       const diff = dueTime - currentTime;
 
       const sec = 1000;
