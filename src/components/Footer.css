@@ -9,7 +9,55 @@
     color: white;
     text-decoration: none;
   }
+  .footer-whole{
+      height: 25vh;
+      width: 100%;
+      margin-top: 10vh;
+      background-color: rgb(0, 171, 228);
+      display: flex;
+      flex-wrap: wrap;
+  }
   .footer-mail, .footer-phone, .footer-web{
     height: 5vh;
     width: 100%;
+  }
+  .footer-copy-div{
+    height: 23vh;
+    width: 500px;
+    background-color: olive;
+    margin-left: 5%;
+    margin-top: 2vh;    
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;    
+  }
+  .links-div{
+    background-color: blue;    
+      height: 17vh;
+      width: 500px;
+      margin-left: 15%;
+      margin-top: 0vh;          
+  }
+
+  @media only screen and (max-width: 920px){
+      /* .footer-whole{
+        height: 25vh;
+        width: 100%;
+        margin-top: 10vh;
+      
+      } */
+      .links-div{
+        height: 17vh;
+        width: 50%;
+        margin-left: 1%;
+        margin-top: 0vh;
+      }
+  }
+  @media (min-width: 920px){
+    .links-div{
+      height: 17vh;
+      width: 50%;
+      margin-left: 1%;
+      margin-top: 0vh;
+    }
   }
