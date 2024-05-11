@@ -16,7 +16,14 @@ const Footer = () => {
           backgroundColor: "rgb(0, 171, 228)",
         }}
       >
-        <h4 style={{ color: "white", fontFamily: "'Montserrat', sans-serif", marginTop:"2vh", marginLeft:"-55%" }}>
+        <h4
+          style={{
+            color: "white",
+            fontFamily: "'Montserrat', sans-serif",
+            marginTop: "2vh",
+            marginLeft: "-55%",
+          }}
+        >
           {" "}
           <br /> All Copyrights reserved ©️ 2024 by Election Commission India{" "}
           <br />
@@ -31,7 +38,10 @@ const Footer = () => {
             marginTop: "-11.5vh",
           }}
         >
-          <div className="more-div" style={{ height: "4vh", width: "90%" , marginTop:"4vh"}}>
+          <div
+            className="more-div"
+            style={{ height: "4vh", width: "90%", marginTop: "4vh" }}
+          >
             <h3
               style={{ color: "white", fontFamily: "'Montserrat', sans-serif" }}
             >

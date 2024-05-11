@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Candiform.css";
 import nomination from "./nominate.png";
+import { Link } from "react-router-dom";
 
 const Candiform = () => {
   const [val1, setVal1] = useState("");
@@ -138,7 +139,7 @@ const Candiform = () => {
             height: "36vh",
             width: "45%",
             backgroundColor: "maroon",
-            marginLeft: "30%",
+            marginLeft: "29.8%",
           }}
         >
           <img
@@ -175,7 +176,7 @@ const Candiform = () => {
                 value={val1}
                 onChange={change1}
                 className="candi-form-box"
-                placeholder="Enter the candidate name"
+                placeholder="Enter the name of the candidate"
                 style={{
                   paddingLeft: "2%",
                   fontSize: "12.5px",
@@ -266,7 +267,8 @@ const Candiform = () => {
               type="submit"              
               className="candi-form-btn"
             >
-              Submit
+              <Link to={'/nomdone'}> Submit </Link>
+              
             </button>
             <br />
             {/* {sub && <h1>The value is {temp1}</h1>}
