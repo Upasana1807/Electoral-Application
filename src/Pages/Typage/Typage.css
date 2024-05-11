@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ty-outer-div{
+    height: 100vh;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.ty-heading-div{
+    height: 12vh;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.ty-heading-name-div{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    color: #004b80;
+}
+
+.ty-pic-div{
+    height: 50vh;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+.tybutton{
+    height: 7vh;
+    width: 7%;
+    margin-left: 2%;
+    background-color: #00ABE4;
+    margin-top: 3%;
+}
+
+.tybutton-text{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Media Query for 920px */
+@media only screen and (max-width: 920px) {
+    .ty-outer-div {
+        padding-top: 5%;
+    }
+
+    .ty-heading-div {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .ty-pic-div {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .tybutton {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .ty-outer-div {
+        padding-top: 5%;
+    }
+
+    .ty-heading-div {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .ty-heading-name-div {
+        font-size: 40px;
+    }
+
+    .ty-pic-div {
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ty-pic-div img {
+        max-width: 100%;
+        max-height: 100%;
+        width: auto;
+        height: auto;
+    }
+
+    .tybutton {
+        width: 15%;
+    }
+}

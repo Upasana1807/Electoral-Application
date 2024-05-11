@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+}
+.candash-outer-div{
+    height: 90vh;
+    width: 100%;
+    /* background-color: brown; */
+    background-color: rgb(225,239,255);
+    background: linear-gradient(90deg, rgba(225,239,255,1) 60%, rgba(255,255,255,1) 100%);;
+    /* background-image: url(${bg1.jpg}); */
+    /* background-image: url("./bg1.jpg"); */
+    padding-top: 5vh;
+    /* padding-left: 5%;
+    display: flex; */
+    color: #004b80;
+}
+.candash-inner-div{
+    height: 30vh;
+    width: 80%;
+    /* background-color: darkslategrey; */
+    margin-left: 15%;
+    display: flex;
+}
+.candash-inner1{
+    width: 70%;
+    height: 30vh;
+    margin-left: 15%;
+    /* background-color: pink; */
+}
+
+.candash-inner-div1{
+    height: 8vh;
+    width: 90%;
+    /* background-color: blue; */
+    margin-left: 2%;
+    text-align: center;
+    /* padding-top: 3vh; */
+    /* margin-top: 2%; */
+}
+.candash-inner-div2{
+    height: 12vh;
+    width: 90%;
+    /* background-color: yellow; */
+    margin-top: 8vh;
+    margin-left: 10%;
+    display: flex;
+}
+.candash-inner-div3{
+    height: 25vh;
+    width: 80%;
+    /* background-color: darkmagenta; */
+    margin-top: 6vh;
+    margin-left: 23%;
+    display: flex;
+}
+.candash-button-div{
+    height: 7vh;
+    width: 10%;
+    /* background-color: yellow; */
+    margin-left: 43.5%;
+    margin-top: 14vh;
+}
+.candash-but-div{
+    height: 7vh;
+    width: 100%;
+    margin-left: 8vh;
+    font-size: 20px;
+    background-color: #00ABE4;
+    border-color: transparent;
+    border-radius: 5px;
+    color: white;
+}
+.candash-heading{
+    font-size: 430%;
+    /* background-color: olive; */
+    font-family: 'Inter', sans-serif;
+}
+.candash-pic-div{
+    height: 13vh;
+    width: 6%;
+    /* background-color: darkgreen; */
+    margin-top: 0.5vh;
+    margin-left: 2%;
+}
+.candash-name-div{
+    height: 12vh;
+    width: 70%;
+    font-family: "'Montserrat', sans-serif";   
+     /* background-color: gray; */
+}
+.candash-name{
+    font-size: 190%;
+    font-family: "'Montserrat', sans-serif"; 
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    /* margin-left: 2%; */
+}
+.candash-box-heading{
+    height: 5vh;
+    width: 100%;
+}
+.candash-box{
+    height: 25vh;
+    width: 14%;
+    /* background-color: blue; */
+    margin-left: 3%;
+    border-radius: 10px;
+    border: 2px solid #004b80;
+    /* border-color: ; */
+}
+.candash-box-right{
+    height: 15vh;
+    width: 14%;
+    background-color: rgb(0, 208, 255);
+    margin-left: 22%;
+    margin-bottom: 10px;
+}
+.candash-box-img{
+    height: 15vh;
+    width: 100%;
+    /* background-color: lightsalmon; */
+    /* margin-bottom: 10vh; */
+}
+.candash-box-text{
+    height: 5vh;
+    width: 100%;
+}
+.candash-name1{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name2{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+    text-align: center;
+}
+.candash-name3{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name4{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name1-box-headxing{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name2-box-headxing{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name3-box-headxing{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}
+.candash-name4-box-headxing{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2%;
+}

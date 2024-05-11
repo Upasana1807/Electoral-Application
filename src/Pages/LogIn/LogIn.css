@@ -1,0 +1,148 @@
+.outer{
+    height: 66vh;
+    width: 30%;
+    background-color:#ffffff ; 
+    /* background-color: olive; */
+    align-items: center;
+    margin-top: 8%;
+    margin-left: 36%;
+    border-radius: 9px;
+    display: flex;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2); 
+    display: block;
+    border:  #00ABE4 3px solid;
+    
+}
+.logo{
+    height: 24vh;
+    width: 100%;
+
+    display: block;
+}
+.heading_div{
+    height: 8vh;
+    width: 100%;
+    /* background-color: aqua; */
+    margin-top: 3%;
+}
+.heading{
+   
+    color: #004b80;
+    font-size: 40px;
+   margin-top: 40%;
+    letter-spacing: 1px;
+    margin-left: 3%;
+  
+    
+}
+.profile_logo_div{
+    height: 14vh;
+    width: 100%;
+   margin-left: -14%;
+}
+.profile_logo{
+   height: 15vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+   margin-top: 7px;
+    margin-left: 33%;
+}
+.login_from_div{
+    height: 30vh;
+    width: 100%;
+    /* background-color:blueviolet ; */
+    display: flex;
+    margin-left: -3%;
+}
+.icon{
+    height: 30vh;
+    width: 20%;
+    
+    display: block;
+}
+.from{
+    height: 30vh;
+    width: 80%;
+    /* background-color: rgb(0, 230, 130); */
+    display: block;
+}
+.iconimg{
+    height: 5vh;
+    width: 47%;
+    margin-top: 4vh;
+    margin-left: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
+.iconimg_id{
+    height: 6vh;
+    width: 44%;
+    margin-top: 3vh;
+    margin-left: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
+.iconimg_password{
+    height: 6vh;
+    width: 56%;
+    margin-top: 3vh;
+    margin-left: 18px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    
+}
+.from_div{
+    height: 7.3vh;
+    width: 100%;
+    margin-top: 18px;
+    /* background-color: black; */
+}
+.select{
+    height: 6.5vh;
+    width: 90%;
+    border: #004b80 2px solid;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.select:hover{
+    border: #004b80 3.5px solid;
+   background-color:  #eae9e9;
+}
+.box{
+    height: 6.5vh;
+    width: 90%;
+    border:#004b80 2px solid ;
+    margin-left: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.box:hover{
+    border: #004b80 3.5px solid;
+   background-color:  #eae9e9;
+}
+.btn_div{
+    height: 7vh;
+    width: 100%;
+    margin-left: -11%;
+    margin-top: 1.5%;
+}
+.btn_login{
+    height: 6vh;
+    width: 46%;
+    margin-left: 27%;
+    margin-top: 10px;
+    background-color: #00ABE4;
+    border: none;
+    text-decoration: none;
+    font-size: 19px;
+    color: #ffffff;
+    border-radius: 10px;
+
+}
