@@ -63,8 +63,8 @@ const LogIn = () => {
           <div className="login_from_div">
             <div className="icon">
               <img src={Select} alt="sample" className="iconimg"></img>
-              <img src={Id} alt="sample" className="iconimg"></img>
-              <img src={Password} alt="sample" className="iconimg"></img>
+              <img src={Id} alt="sample" className="iconimg_id"></img>
+              <img src={Password} alt="sample" className="iconimg_password"></img>
             </div>
             <div className="from">
               <div className="from_div">

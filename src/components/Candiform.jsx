@@ -25,7 +25,7 @@ const Candiform = () => {
   //   console.log(temp6);
   // };
   const change1 = (e) => {
-    console.log(e);
+    // console.log(e);
     setSub(false);
     setVal1(e.target.value);
     console.log(val1);
@@ -63,10 +63,11 @@ const Candiform = () => {
       (val4 === "")||
       (val5 === "")
     ) {
-      alert("Please Fill the Form Properly");
+      
+      alert("Please Fill the Form Properly.");
       e.preventDefault();
     } else {
-      e.preventDefault();
+      
       setSub(true);
       setTemp1(val1);
       setVal1("");
@@ -78,6 +79,7 @@ const Candiform = () => {
       setVal4("");
       setTemp5(val5);
       setVal5("");
+      e.preventDefault();
       // setTemp6(picv);
       // setPicv("");
     }
