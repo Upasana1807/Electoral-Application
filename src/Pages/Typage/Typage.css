@@ -34,6 +34,9 @@
     margin-left: 2%;
     background-color: #00ABE4;
     margin-top: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 90%;
 }
 
 .tybutton-text{
