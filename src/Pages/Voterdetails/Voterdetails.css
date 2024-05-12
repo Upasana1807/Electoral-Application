@@ -10,8 +10,8 @@
     width: 60%;
     background-color:#ffffff ;
     align-items: center;
-    margin-top: 8%;
-    margin-left: 320px;
+    margin-top: 7%;
+    margin-left: 20%;
     border-radius: 9px;
     display: flex;
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
@@ -20,7 +20,7 @@
 .image_div{
     height: 55vh;
     width: 45%;
-   
+
     margin-left: 60px;
 
 }
@@ -34,14 +34,13 @@
 .personal_details_div{
     height: 55vh;
     width: 47%;
- 
+
     display: block;
 }
 .image{
     height: 40vh;
     width: 80%;
- 
-  
+
     margin-top: 56px;
 
 
@@ -49,7 +48,6 @@
 .headding{
     height: 10vh;
     width: 100%;
-
 
 }
 .headding h1{
@@ -60,7 +58,7 @@
 .details_div{
     height: 26vh;
     width: 100%;
-    
+  
     display: flex;
 }
 .checkbox_div{
@@ -72,7 +70,7 @@
 .details_div1{
     height: 26vh;
     width: 50%;
-    
+
     
 
 }
@@ -85,22 +83,40 @@
 .name{
     height: 8vh;
     width: 100%;
+   
     color: #004b80;
-    margin-top: 4px;
+    margin-top: 1vh;
 }
 .id{
     height: 8vh;
     width: 100%;
+    margin-left: 4%;
     color: #004b80;
     margin-top: 4px;
 }
 .assemly{
     height: 8vh;
     width: 100%;
+    margin-left: 6%;
    color: #004b80;
     margin-top: 4px;
 }
-input[type="checkbox"]{
+.id_my{
+    height: 8vh;
+    width: 75%;
+    
+   color: #004b80;
+    margin-top: 4px;
+}
+.assemly_my{
+    height: 8vh;
+    width: 75%;
+    
+   color: #004b80;
+    margin-top: 4px;
+}
+
+.checkbox_div input[type="checkbox"]{
     appearance: none;
     -webkit-appearance: none;
     
@@ -117,11 +133,11 @@ input[type="checkbox"]{
 
 
 }
-input[type="checkbox"]:checked{
+.checkbox_div input[type="checkbox"]:checked{
     background-color:#00ABE4;
 }
 
-label{
+.checkbox_div label{
     color: black;
     font-size: 15px;
     font-weight:520 ;
@@ -131,7 +147,7 @@ label{
     cursor: pointer;
 
 }
-input[type="checkbox"]::before{
+.checkbox_div input[type="checkbox"]::before{
     position: absolute;
     content: '\2713';
     font-size: 25px;
@@ -141,7 +157,7 @@ input[type="checkbox"]::before{
     transform: scale(0);
     transition: 0.3s all ease-in-out;
 }
-input[type="checkbox"]:checked::before{
+.checkbox_div input[type="checkbox"]:checked::before{
     transform:scale(1) ;
 }
 
@@ -149,29 +165,171 @@ input[type="checkbox"]:checked::before{
     height: 7vh;
     width: 100%;
   
+
 }
-button {
-    width: 20%;
+.batton button {
+    width: 32%;
     padding: 10px;
     cursor: pointer;
     border: none;
     border-radius: 4px;
     transition: background-color 0.3s;
-    margin-left: 30%;
+    margin-left: 1%;
     font-size: 16px;
   }
 
 
-button.enabled {
+  .batton button.enabled {
     background-color: #00ABE4;/* Gray when disabled */
     color: #fff;
   }
   
-  button.disabled {
+  .batton button.disabled {
     background-color: #ccc; /* Gray when disabled */
     cursor: not-allowed;
     color: #6a6969;
   }
 .checkbox_div i{
     color: #004b80;
+}
+@media only screen and (max-width: 920px) {
+    .inner_div{
+        height: 60vh;
+        width: 60%;
+    }
+    .image_div{
+        height: 50vh;
+        width: 45%;
+        margin-left: 4px;
+    
+    }
+   
+    .image{
+        height: 32vh;
+        width: 80%;
+        margin-bottom: 55%;
+     
+    }
+    .profile_pic{
+        height: 30vh;
+        width: 100%;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: contain;  
+    }
+    .personal_details_div{
+        height: 55vh;
+        width: 47%;
+    }
+    .headding{
+        height: 10vh;
+        width: 100%;
+      
+    
+    
+    }
+    .headding h1{
+        font-size: 20px;
+        margin-bottom: 16px;
+        text-decoration: underline 2px;
+    }
+    .name{
+        font-size: 12px;
+        height: 8vh;
+        width: 100%;
+       
+    }
+    .id{
+        font-size: 12px;
+        height: 8vh;
+        width: 100%;
+        color: #004b80;
+    
+    }
+    .assemly{
+        font-size: 12px;
+        height: 8vh;
+        width: 100%;
+       color: #004b80;
+       
+    }
+    .checkbox_div label{
+        color: black;
+        font-size: 12px;
+        font-weight:520 ;
+        display: inline-block;
+        margin-left: 5px;
+        letter-spacing: 0.5;
+        cursor: pointer;
+    
+    }
+    .checkbox_div i{
+        font-size: 11px;
+    }
+    .batton button {
+        width: 50%;
+        margin-top: 3px;
+        padding: 10px;
+        font-size: 10px;
+    }
+    .batton{
+        height: 7vh;
+        width: 100%;
+      
+    }
+
+}
+@media only screen and (max-width: 412px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .checkbox_div label{
+        color: black;
+        font-size: 10px;
+        font-weight:520 ;
+        display: inline-block;
+        margin-left: 5px;
+        letter-spacing: 0.5;
+        cursor: pointer;
+    
+    }
+    .checkbox_div i{
+        font-size: 6.5px;
+    }
+    .headding h1{
+        font-size: 16px;
+        margin-bottom: 16px;
+        text-decoration: underline 2px;
+    }
+    .name{
+        font-size: 10px;
+        height: 8vh;
+        width: 100%;
+       
+    }
+    .id{
+        font-size: 10px;
+        height: 8vh;
+        width: 100%;
+        color: #004b80;
+    
+    }
+    .assemly{
+        font-size: 10px;
+        height: 8vh;
+        width: 100%;
+       color: #004b80;
+       
+    }
+    .batton button {
+        width: 50%;
+        padding: 12px;
+        font-size: 7px;
+    }
+    .batton{
+        height: 5vh;
+        width: 100%;
+      
+    }
 }

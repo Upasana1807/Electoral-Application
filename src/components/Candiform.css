@@ -1,0 +1,40 @@
+.candi-form-box{
+    height: 7vh;
+    width: 80%;
+    /* background-color: aqua; */
+    /* margin-left: 105%; */
+    border: 0.3px solid rgb(161, 161, 161) ;
+    border-radius: 10px;
+    border-bottom: 2px solid rgb(0, 171, 228);
+}
+.candi-form-label{
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    color: #004b80;
+    font-size: 18px;
+    /* font-weight: bolder; */
+}
+.candi-form-btn:hover{
+    background-color: rgb(0, 171, 228);
+    /* height: 9vh;
+    width: 145%; */
+    cursor: pointer;
+    box-shadow:4px 4px 5px rgb(207, 202, 202);
+    /* text-shadow: 1px 3px 3px white; */
+}
+.candi-form-btn{
+    cursor: pointer;
+    height:8vh;
+    width:140% ;
+    background-color:rgb(0, 171, 228);
+    color:white;
+    border:none;
+    position: relative;
+    box-shadow:1px 1px 2px gray;
+    font-family:'Montserrat', sans-serif;
+    border-radius:5px;
+    font-size:20px;
+    margin-left:426%;
+    margin-top: 60vh;
+    font-weight: bold;
+}

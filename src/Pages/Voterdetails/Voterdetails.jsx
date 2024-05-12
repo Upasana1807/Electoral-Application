@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from "react-router-dom";
 import "./Voterdetails.css";
 import My from "../../Images/my.png";
 const Voterdetails =() =>{
@@ -23,8 +24,8 @@ const Voterdetails =() =>{
                 </div>
                 <div className="details_div2">
                 <div className="name"><span><b>Raumya Koley</b></span></div>
-                    <div className="id"><span><b>395674</b></span></div>
-                    <div className="assemly"><span><b>Kalna</b></span></div>
+                    <div className="id_my"><span><b>395674</b></span></div>
+                    <div className="assemly_my"><span><b>Kalna</b></span></div>
                 </div>
             </div>
             <div className="checkbox_div">
@@ -36,9 +37,11 @@ const Voterdetails =() =>{
                 </i>
             </div>
             <div className="batton">
+            <Link to="/countdown">
                 <button className={isChecked ? 'enabled' : 'disabled'} onClick={() => alert('This page will redirect you to the voting page')} id="btn">
                 <b>Continue</b>
                 </button>
+                </Link>
             </div>
             </div> 
 
