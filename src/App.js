@@ -9,11 +9,11 @@ import {Home} from "./Pages/Home/Home";
 import Candiform from "./components/Candiform.jsx";
 import Candash from "./Pages/Candashboard/Candash.jsx";
 import Voterdetails from "./Pages/Voterdetails/Voterdetails.jsx";
+import Addash from "./Pages/Admindashboard/Addash.jsx";
 
 import { Navbar } from "./components/Navbar/Navbar.jsx";
 
 import Timer from "./Pages/Timer/Timer.jsx";
-import Addash from "./Pages/Admindashboard/Addash.jsx";
 import Declared from "./Pages/Declared/Declared.jsx";
 import Typage from "./Pages/Typage/Typage.jsx";
 import Voting from "./Pages/Voting/Voting.jsx";
