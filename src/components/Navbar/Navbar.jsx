@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './Navbar.css';
-import logo from "../../image/vote.jpg";
+import logo from "../vote-icon.png";
 import icon from "../../image/home.png";
 
 
