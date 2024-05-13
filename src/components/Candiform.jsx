@@ -2,8 +2,17 @@ import React, { useState } from "react";
 import "./Candiform.css";
 import nomination from "./nominate.png";
 import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 
 const Candiform = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   const [val1, setVal1] = useState("");
   const [val2, setVal2] = useState("");
   const [val3, setVal3] = useState("");
