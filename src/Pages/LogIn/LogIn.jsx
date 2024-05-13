@@ -5,10 +5,19 @@ import Password from "../../Images/password.png";
 import Id from "../../Images/id.png";
 import Select from "../../Images/select.png";
 import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 // import { useHistory } from 'react-router-dom';
 // import { BrowserRouter,Routes ,Route } from "react-router-dom";
 
 const LogIn = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   const [val, setval] = useState("");
   const [passval, passsetval] = useState("");
   const [sub, setSub] = useState(false);

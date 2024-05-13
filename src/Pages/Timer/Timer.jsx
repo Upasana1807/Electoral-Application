@@ -1,14 +1,22 @@
 import React, { useState, useEffect } from 'react';
 import './Timer.css';
-import PIC from '../../image/timerpic.jpg'
+import PIC from '../../image/timerpic.jpg';
+import { useLocation } from 'react-router-dom';
+
+
 
 const CountdownTimer = () => {
   const [dueDay, setDueDay] = useState(0);
   const [dueHour, setDueHour] = useState(0);
   const [dueMinute, setDueMinute] = useState(0);
   const [dueSecond, setDueSecond] = useState(0);
+  const location = useLocation();
+  
 
   useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
     const countDownTime = () => {
       const currentTime = new Date().getTime();
       const dueTime = new Date("May 2, 2024 00:00:00").getTime();
@@ -34,7 +42,7 @@ const CountdownTimer = () => {
 
     // Clear interval on component unmount
     return () => clearInterval(intervalId);
-  }, []);
+  }, [location]);
 
   return (
   < div className="timer-outer-div">

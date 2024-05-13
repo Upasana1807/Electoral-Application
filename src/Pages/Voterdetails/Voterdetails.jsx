@@ -2,7 +2,19 @@ import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import "./Voterdetails.css";
 import My from "../../Images/my.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+
+
+
 const Voterdetails =() =>{
+    const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
     const[isChecked,setIsChecked]=useState(false);
     return(
         <>

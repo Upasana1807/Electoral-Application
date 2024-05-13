@@ -6,8 +6,17 @@ import ICON from "../../Images/icon.png";
 import BG3 from "../../image/region-1.png";
 import BG2 from "../../image/party-logo.png";
 import BG1 from "../../image/party-name.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 
 const  Candash = () => {
+    const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
     return (
         <div className='candash-outer-div'>
             <div className='candash-inner-div'>
