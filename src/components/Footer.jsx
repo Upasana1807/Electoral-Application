@@ -35,6 +35,8 @@ const Footer = () => {
               width: "95%",
               marginTop: "0.5vh",
               display: "flex",
+              
+              marginLeft:"10%"
             }}
           >
             <div className="icon-div">
@@ -62,6 +64,8 @@ const Footer = () => {
               width: "95%",
               marginTop: "1vh",
               display: "flex",
+              
+              marginLeft:"10%"
             }}
           >
             <div className="icon-div" >
@@ -89,6 +93,8 @@ const Footer = () => {
               width: "95%",
               marginTop: "1vh",
               display: "flex",
+              
+              marginLeft:"10%"
             }}
           >
             <div className="icon-div" >
