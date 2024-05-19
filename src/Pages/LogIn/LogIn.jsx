@@ -38,7 +38,7 @@ const LogIn = () => {
     passsetval(e.target.value);
   };
   const submitFrom = (e) => {
-    if (val === "") {
+    if ((val === "")||(passval === "")) {
       alert("Please Fill the Form Properly");
       e.preventDefault();
     } else {
