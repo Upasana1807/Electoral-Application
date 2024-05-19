@@ -71,8 +71,7 @@ const Candiform = () => {
       (val3 === "")||
       (val4 === "")||
       (val5 === "")
-    ) {
-      
+    ) {      
       alert("Please Fill the Form Properly.");
       e.preventDefault();
     } else {
@@ -88,6 +87,7 @@ const Candiform = () => {
       setVal4("");
       setTemp5(val5);
       setVal5("");
+
       e.preventDefault();
       // setTemp6(picv);
       // setPicv("");
@@ -277,9 +277,10 @@ const Candiform = () => {
             <button
               type="submit"              
               className="candi-form-btn"
+              onClick={submitForm}
             >
-              <Link to={'/nomdone'}> Submit </Link>
-              
+                    <Link to={'/nomdone'}> Submit </Link>
+
             </button>
             <br />
             {/* {sub && <h1>The value is {temp1}</h1>}
