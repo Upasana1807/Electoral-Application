@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./Candiform.css";
 import nomination from "./nominate.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
 
 
 const Candiform = () => {
@@ -26,6 +28,8 @@ const Candiform = () => {
   const [temp4, setTemp4] = useState(val4);
   const [temp5, setTemp5] = useState(val5);
   const [temp6, setTemp6] = useState("");
+  const navigate = useNavigate();
+
   // const change6 = (e) => {
   //   setSub(false);
   //   setPicv(URL.createObjectURL(e.target.files[0]));
@@ -72,10 +76,10 @@ const Candiform = () => {
       (val4 === "")||
       (val5 === "")
     ) {      
-      alert("Please Fill the Form Properly.");
+      alert("Please Make Sure That All The Fields Are Filled Properly.");
       e.preventDefault();
     } else {
-      
+      navigate("/nomdone");
       setSub(true);
       setTemp1(val1);
       setVal1("");
@@ -277,9 +281,10 @@ const Candiform = () => {
             <button
               type="submit"              
               className="candi-form-btn"
-              onClick={submitForm}
+              // onClick={submitForm}
             >
-                    <Link to={'/nomdone'}> Submit </Link>
+                    {/* <Link to={'/nomdone'}> Submit </Link> */}
+                    Submit
 
             </button>
             <br />
