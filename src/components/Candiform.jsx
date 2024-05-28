@@ -20,14 +20,14 @@ const Candiform = () => {
   const [val3, setVal3] = useState("");
   const [val4, setVal4] = useState("");
   const [val5, setVal5] = useState("");
-  const [picv, setPicv] = useState("");
-  const [sub, setSub] = useState(false);
-  const [temp1, setTemp1] = useState(val1);
-  const [temp2, setTemp2] = useState(val2);
-  const [temp3, setTemp3] = useState(val3);
-  const [temp4, setTemp4] = useState(val4);
-  const [temp5, setTemp5] = useState(val5);
-  const [temp6, setTemp6] = useState("");
+  // const [picv, setPicv] = useState("");
+  // const [sub, setSub] = useState(false);
+  // const [temp1, setTemp1] = useState(val1);
+  // const [temp2, setTemp2] = useState(val2);
+  // const [temp3, setTemp3] = useState(val3);
+  // const [temp4, setTemp4] = useState(val4);
+  // const [temp5, setTemp5] = useState(val5);
+  // const [temp6, setTemp6] = useState("");
   const navigate = useNavigate();
 
   // const change6 = (e) => {
@@ -39,31 +39,32 @@ const Candiform = () => {
   // };
   const change1 = (e) => {
     // console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal1(e.target.value);
+    
     console.log(val1);
   };
   const change2 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal2(e.target.value);
     console.log(val2);
   };
   const change3 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal3(e.target.value);
     console.log(val3);
   };
   const change4 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal4(e.target.value);
     console.log(val4);
   };
   const change5 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal5(e.target.value);
     console.log(val5);
   };
@@ -80,16 +81,16 @@ const Candiform = () => {
       e.preventDefault();
     } else {
       navigate("/nomdone");
-      setSub(true);
-      setTemp1(val1);
+      // setSub(true);
+      // setTemp1(val1);
       setVal1("");
-      setTemp2(val2);
+      // setTemp2(val2);
       setVal2("");
-      setTemp3(val3);
+      // setTemp3(val3);
       setVal3("");
-      setTemp4(val4);
+      // setTemp4(val4);
       setVal4("");
-      setTemp5(val5);
+      // setTemp5(val5);
       setVal5("");
 
       e.preventDefault();
