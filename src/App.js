@@ -24,7 +24,7 @@ function App() {
   return (
   <div className='App'>
     <Navbar />
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}> 
     <Routes>
       <Route path='/' element={<Home/>} />
       {/* <Route path="/voterdetails" element={<VoterDetails/>}/> */}
