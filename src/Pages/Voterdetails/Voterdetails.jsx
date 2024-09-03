@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link} from "react-router-dom";
 import "./Voterdetails.css";
-import My from "../../Images/my.png";
+import User from "../../Images/user .png";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -21,7 +21,7 @@ const Voterdetails =() =>{
            <div className="inner_div">
            <div className="image_div">
             <div className="image">
-                <img src={My} alt="sample" className="profile_pic"></img>
+                <img src={User} alt="sample" className="profile_pic"></img>
             </div>
             </div> 
            <div className="personal_details_div">
@@ -49,7 +49,7 @@ const Voterdetails =() =>{
                 </i>
             </div>
             <div className="batton">
-            <Link to="/countdown">
+            <Link to="/voting">
                 <button className={isChecked ? 'enabled' : 'disabled'} onClick={() => alert('This page will redirect you to the voting page')} id="btn">
                 <b>Continue</b>
                 </button>

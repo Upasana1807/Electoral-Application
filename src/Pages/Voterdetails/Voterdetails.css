@@ -34,14 +34,16 @@
 .personal_details_div{
     height: 55vh;
     width: 47%;
-
+    /* background-color: brown; */
     display: block;
+    margin-left: -4%;
+    margin-top: 2%;
 }
 .image{
     height: 40vh;
     width: 80%;
-
-    margin-top: 56px;
+    /* background-color: aqua; */
+    margin-top: 5%;
 
 
 }
@@ -164,8 +166,8 @@
 .batton{
     height: 7vh;
     width: 100%;
-  
-
+    /* background-color: brown; */
+    margin-top: 3%;
 }
 .batton button {
     width: 32%;
