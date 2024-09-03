@@ -13,7 +13,7 @@ export const  Navbar= ()=>  {
       <img src={logo} alt="sample" className='icon-div'></img>
       </div>
       <div className='nav-inner2'>
-      <a href="/">
+      <a href="/Electoral-Application">
       <img src={icon} alt="sample" className='icon-div2'></img>
      </a>
       </div>
