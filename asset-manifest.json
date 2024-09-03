@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/Electoral-Application/static/css/main.248180cc.css",
-    "main.js": "/Electoral-Application/static/js/main.ad3be4ef.js",
+    "main.css": "/Electoral-Application/static/css/main.70d2ca86.css",
+    "main.js": "/Electoral-Application/static/js/main.19d948dc.js",
     "static/js/787.9d5b269a.chunk.js": "/Electoral-Application/static/js/787.9d5b269a.chunk.js",
     "static/media/typic.png": "/Electoral-Application/static/media/typic.a4cc9c2d3e07471a2576.png",
     "static/media/party-logo.png": "/Electoral-Application/static/media/party-logo.438442d1d20e51341e85.png",
-    "static/media/my.png": "/Electoral-Application/static/media/my.7b12ce5cb3e287d37e2b.png",
     "static/media/party-name.png": "/Electoral-Application/static/media/party-name.86cc6f1b27cce9b8a7ce.png",
     "static/media/timerpic.jpg": "/Electoral-Application/static/media/timerpic.b187ae275d9aed93cc46.jpg",
     "static/media/tmc.png": "/Electoral-Application/static/media/tmc.8a511b7a8797c4f71069.png",
@@ -19,16 +18,17 @@
     "static/media/nominate.png": "/Electoral-Application/static/media/nominate.b3c1823fd78ed4c8c500.png",
     "static/media/vote-icon.png": "/Electoral-Application/static/media/vote-icon.b518e1d20f6cb7e9ba03.png",
     "static/media/region-1.png": "/Electoral-Application/static/media/region-1.559dda2be201521aa296.png",
+    "static/media/user .png": "/Electoral-Application/static/media/user .15f433a509ec2ab850a0.png",
     "static/media/select.png": "/Electoral-Application/static/media/select.ac3be28e2c9d9475b4b4.png",
     "static/media/call.png": "/Electoral-Application/static/media/call.f6e851b1a7d667d97160.png",
     "static/media/id.png": "/Electoral-Application/static/media/id.4143cb0d43827e9ac111.png",
     "index.html": "/Electoral-Application/index.html",
-    "main.248180cc.css.map": "/Electoral-Application/static/css/main.248180cc.css.map",
-    "main.ad3be4ef.js.map": "/Electoral-Application/static/js/main.ad3be4ef.js.map",
+    "main.70d2ca86.css.map": "/Electoral-Application/static/css/main.70d2ca86.css.map",
+    "main.19d948dc.js.map": "/Electoral-Application/static/js/main.19d948dc.js.map",
     "787.9d5b269a.chunk.js.map": "/Electoral-Application/static/js/787.9d5b269a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.248180cc.css",
-    "static/js/main.ad3be4ef.js"
+    "static/css/main.70d2ca86.css",
+    "static/js/main.19d948dc.js"
   ]
 }
