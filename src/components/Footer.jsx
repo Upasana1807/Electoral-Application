@@ -19,10 +19,10 @@ const Footer = () => {
         <div className="links-div">
           <div
             className="more-div"
-            style={{ height: "4vh", width: "90%", backgroundColor: "red" }}
+            style={{ height: "4vh", width: "90%"}}
           >
             <h3
-              style={{ color: "white", fontFamily: "'Montserrat', sans-serif" }}
+              style={{ color: "white", fontFamily: "'Montserrat', sans-serif", marginTop:"2vh"}}
             >
               {" "}
               For further enqueries & Helpline{" "}
@@ -37,12 +37,11 @@ const Footer = () => {
               display: "flex",
             }}
           >
-            <div className="icon-div" style={{ height: "5vh", width: "13%" }}>
+            <div className="icon-div">
               <img className="footer-phone" src={phone} alt="phone-icon" />
             </div>
             <div
-              className="details-div"
-              style={{ height: "5vh", width: "80%", marginLeft: "5%" }}
+              className="details-div"              
             >
               <h3
                 style={{
@@ -65,12 +64,11 @@ const Footer = () => {
               display: "flex",
             }}
           >
-            <div className="icon-div" style={{ height: "5vh", width: "13%" }}>
+            <div className="icon-div" >
               <img className="footer-mail" src={email} alt="email-icon" />
             </div>
             <div
               className="details-div"
-              style={{ height: "5vh", width: "80%", marginLeft: "5%" }}
             >
               <h4
                 style={{
@@ -93,7 +91,7 @@ const Footer = () => {
               display: "flex",
             }}
           >
-            <div className="icon-div" style={{ height: "5vh", width: "13%" }}>
+            <div className="icon-div" >
               <a
                 href="https://www.eci.gov.in/"
                 target="_blank"
@@ -105,7 +103,6 @@ const Footer = () => {
             </div>
             <div
               className="details-div"
-              style={{ height: "5vh", width: "80%", marginLeft: "5%" }}
             >
               <a
                 href="https://www.eci.gov.in/"
