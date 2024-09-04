@@ -1,9 +1,18 @@
 import React from 'react'
 import './Home.css'
 import backg from "../../image/clip3.png"
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 
 export const  Home = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   return (
     <div className='outer-div'>
      

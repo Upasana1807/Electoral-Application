@@ -5,7 +5,18 @@ import Manage from "../../Images/manage.png";
 import Add from "../../Images/add.png";
 import Report from "../../Images/report.png";
 import Logout from "../../Images/logout.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
+
+
 const Addash =() =>{
+    const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
     return(
         <>
             <div className="admindash_outer">

@@ -1,9 +1,21 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import './Typage.css';
-import TYPIC from "../../image/typic.png"
+import TYPIC from "../../image/typic.png";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 
 const Typage =() =>{
+    const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
+
+
+
     return(
         <div className="ty-outer-div">
             <div className="ty-heading-div">

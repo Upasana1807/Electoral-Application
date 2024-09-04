@@ -1,22 +1,35 @@
 import React, { useState } from "react";
 import "./Candiform.css";
 import nomination from "./nominate.png";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
+
+
 
 const Candiform = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   const [val1, setVal1] = useState("");
   const [val2, setVal2] = useState("");
   const [val3, setVal3] = useState("");
   const [val4, setVal4] = useState("");
   const [val5, setVal5] = useState("");
-  const [picv, setPicv] = useState("");
-  const [sub, setSub] = useState(false);
-  const [temp1, setTemp1] = useState(val1);
-  const [temp2, setTemp2] = useState(val2);
-  const [temp3, setTemp3] = useState(val3);
-  const [temp4, setTemp4] = useState(val4);
-  const [temp5, setTemp5] = useState(val5);
-  const [temp6, setTemp6] = useState("");
+  // const [picv, setPicv] = useState("");
+  // const [sub, setSub] = useState(false);
+  // const [temp1, setTemp1] = useState(val1);
+  // const [temp2, setTemp2] = useState(val2);
+  // const [temp3, setTemp3] = useState(val3);
+  // const [temp4, setTemp4] = useState(val4);
+  // const [temp5, setTemp5] = useState(val5);
+  // const [temp6, setTemp6] = useState("");
+  const navigate = useNavigate();
+
   // const change6 = (e) => {
   //   setSub(false);
   //   setPicv(URL.createObjectURL(e.target.files[0]));
@@ -26,31 +39,32 @@ const Candiform = () => {
   // };
   const change1 = (e) => {
     // console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal1(e.target.value);
+    
     console.log(val1);
   };
   const change2 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal2(e.target.value);
     console.log(val2);
   };
   const change3 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal3(e.target.value);
     console.log(val3);
   };
   const change4 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal4(e.target.value);
     console.log(val4);
   };
   const change5 = (e) => {
     console.log(e);
-    setSub(false);
+    // setSub(false);
     setVal5(e.target.value);
     console.log(val5);
   };
@@ -62,23 +76,23 @@ const Candiform = () => {
       (val3 === "")||
       (val4 === "")||
       (val5 === "")
-    ) {
-      
-      alert("Please Fill the Form Properly.");
+    ) {      
+      alert("Please Make Sure That All The Fields Are Filled Properly.");
       e.preventDefault();
     } else {
-      
-      setSub(true);
-      setTemp1(val1);
+      navigate("/nomdone");
+      // setSub(true);
+      // setTemp1(val1);
       setVal1("");
-      setTemp2(val2);
+      // setTemp2(val2);
       setVal2("");
-      setTemp3(val3);
+      // setTemp3(val3);
       setVal3("");
-      setTemp4(val4);
+      // setTemp4(val4);
       setVal4("");
-      setTemp5(val5);
+      // setTemp5(val5);
       setVal5("");
+
       e.preventDefault();
       // setTemp6(picv);
       // setPicv("");
@@ -268,9 +282,11 @@ const Candiform = () => {
             <button
               type="submit"              
               className="candi-form-btn"
+              // onClick={submitForm}
             >
-              <Link to={'/nomdone'}> Submit </Link>
-              
+                    {/* <Link to={'/nomdone'}> Submit </Link> */}
+                    Submit
+
             </button>
             <br />
             {/* {sub && <h1>The value is {temp1}</h1>}

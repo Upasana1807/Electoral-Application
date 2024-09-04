@@ -17,32 +17,14 @@ const Footer = () => {
           </h4>
         </div>
         <div className="links-div">
-          <div
-            className="more-div"
-            style={{ height: "4vh", width: "90%"}}
-          >
-            <h3
-              style={{ color: "white", fontFamily: "'Montserrat', sans-serif", marginTop:"2vh"}}
-            >
-              {" "}
-              For further enqueries & Helpline{" "}
-            </h3>
+          <div className="more-div">
+            <h3> For further enqueries & Helpline </h3>
           </div>
-          <div
-            className="call-div"
-            style={{
-              height: "5vh",
-              width: "95%",
-              marginTop: "0.5vh",
-              display: "flex",
-            }}
-          >
+          <div className="call-div">
             <div className="icon-div">
               <img className="footer-phone" src={phone} alt="phone-icon" />
             </div>
-            <div
-              className="details-div"              
-            >
+            <div className="details-div">
               <h3
                 style={{
                   color: "white",
@@ -55,21 +37,11 @@ const Footer = () => {
               </h3>
             </div>
           </div>
-          <div
-            className="mail-div"
-            style={{
-              height: "5vh",
-              width: "95%",
-              marginTop: "1vh",
-              display: "flex",
-            }}
-          >
-            <div className="icon-div" >
+          <div className="mail-div">
+            <div className="icon-div">
               <img className="footer-mail" src={email} alt="email-icon" />
             </div>
-            <div
-              className="details-div"
-            >
+            <div className="details-div">
               <h4
                 style={{
                   color: "white",
@@ -83,15 +55,9 @@ const Footer = () => {
             </div>
           </div>
           <div
-            className="web-div"
-            style={{
-              height: "5vh",
-              width: "95%",
-              marginTop: "1vh",
-              display: "flex",
-            }}
+            className="web-div"            
           >
-            <div className="icon-div" >
+            <div className="icon-div">
               <a
                 href="https://www.eci.gov.in/"
                 target="_blank"
@@ -101,9 +67,7 @@ const Footer = () => {
                 <img className="footer-web" src={web} alt="website-icon" />{" "}
               </a>
             </div>
-            <div
-              className="details-div"
-            >
+            <div className="details-div">
               <a
                 href="https://www.eci.gov.in/"
                 target="_blank"

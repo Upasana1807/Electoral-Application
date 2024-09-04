@@ -14,7 +14,7 @@
     height: 8vh;
     width: 7%;
     /* background-color: bisque; */
-    margin-left: 3%;
+    margin-left: 2%;
 }
 .nav-inner2{
     height: 7vh;
@@ -25,7 +25,8 @@
 }
 .icon-div{
     height: 8vh;
-    width: 100%;
+    width: 70%;
+    margin-top: 3%;
     background-position: center;
     background-repeat: no-repeat;
    background-size: contain;

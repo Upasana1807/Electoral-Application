@@ -1,9 +1,18 @@
 import React from "react";
 import waiting from "../../components/waiting.png";
 import { Link } from "react-router-dom";
-import './Declared.css'
+import './Declared.css';
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
+
 
 const Declared = () => {
+  const location = useLocation();
+  useEffect(() => {
+    if (!location.hash) {
+      window.scrollTo(0, 0);
+    }
+  }, [location]);
   return (
     <>
       <div
